@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styletugas7.css">
+    <title>National Air and Space Museum</title>
+    <script src="https://kit.fontawesome.com/8693e748c0.js" crossorigin="anonymous"></script>
+    <link rel="Icon" type="images/icon2" href="images/NASM.png">
+</head>
+</style>
+<img src="images/National_Air_and_Space_Museum_logo.png" style="height: 70px; width: 300px; margin-left: 10%;">
+
+  <div class="back"> 
+  <h1 id="A"> The Smithsonian's National Air and Space Museum
+  </h1>
+  </div>
+
+  <h3 id="A"> Tentang </h3>
+   <p> <i> Smithsonian's National Air and Space Museum</i> merupakan lembaga yang menyimpan koleksi artefak penerbangan dan luar angkasa terbesar dan paling signifikan di dunia, yang mencakup semua aspek penerbangan manusia, serta karya seni dan bahan arsip terkait.</p>
+<br>
+  <p> Museum ini mengoperasikan dua fasilitas penting yang jika digabungkan, menyambut lebih dari delapan juta pengunjung setiap tahunnya, menjadikannya museum yang paling banyak dikunjungi di negara ini. Ini juga merupakan rumah bagi Pusat Studi Bumi dan Planet.</p>
+  <h3 id="A"> Satu Musium Dua Lokasi</h3>
+<p>Dua bangunan Museum menampung ribuan artefak yang dipamerkan dalam pameran penerbangan, eksplorasi ruang angkasa, dan ilmu planet. Di kedua lokasinya, Museum menyajikan program, kegiatan pendidikan, ceramah, dan pertunjukan yang mencerminkan semangat Amerika, serta inovasi, keberanian, dan optimisme yang telah membawa kejayaan dalam sejarah, ilmu pengetahuan, dan teknologi penerbangan.</p>
+<ol class="a"> 
+<li>Di Museum di Washington, DC, yang dibuka pada tahun 1976 dan terletak di jantung kompleks Smithsonian di Washington, DC, beberapa ikon penerbangan yang paling menakjubkan dipajang.</li>
+<li> Steven F. Udvar-Hazy Center, yang terletak di dekat Bandara Internasional Washington Dulles di Chantilly, Virginia, adalah sebuah bangunan besar dengan pengaturan terbuka seperti hanggar yang menampung pesawat besar dan pesawat ruang angkasa, serta seluruh koleksi artefak penerbangan dan luar angkasa.</li>
+</ol>
+
+<h3 id="A">
+  Visi & Misi
+  </h3>
+<div id="C">
+  <h2>Visi</h2>
+  <p class="visimisi">Membantu Membangun Bangsa Inovator dan Penjelajah</p>
+
+  <h2>Misi</h2>
+  <p class="visimisi">
+    Memperingati, Mendidik, Menginspirasi</p>
+  <ul class="visimisi">
+    <li id="li">mengumpulkan, melestarikan, mempelajari, dan memamerkan artefak, bahan arsip, dan karya seni yang berkaitan dengan sejarah, budaya, dan ilmu penerbangan dan penerbangan luar angkasa serta studi tentang alam semesta.</li>
+    <li id="li">Kegiatan penelitian dan penjangkauannya melayani semua khalayak, di dalam dan di luar temboknya.</li>
+    <li id="li">Museum memperingati masa lalu dan berkomitmen untuk mendidik dan menginspirasi masyarakat untuk menumbuhkan apresiasi akan pentingnya penerbangan bagi umat manusia.</li>
+  </ul>
+</div>
+
+<!--menjelaskan denah pada BI--> <!--karena ini gambar kalo bisa di buat slideshow aja supaya ngga makan tempat-->
+<h3 id="A">Denah Museum</h3>
+
+<img src="images/musium dc.jpg" alt="lt1" class="Denahkiri";>
+<p class="parback2">Denah di Washington, DC </p>
+<img src="images/denah james s.png" alt="lt2"  class="Denahkanan";>
+<p class="parback3">Denah di Udvar Hazy Center</p>
+
+
+<h3 id="A">Pameran Museum</h3>
+<div class="slideshow-container">
+  
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="images/Early Flight.jpg" style="width:65%">
+    <div class="text">Early Flight</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="images/American air.jpg" style="width:65%">
+    <div class="text">Americn by Air</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="images/Destination Moon.jpg" style="width:65%">
+    <div class="text">Destination Moon</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="images/Nation Speed.jpg" style="width:65%">
+    <div class="text">Nation of Speed</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="images/One World.jpg" style="width:65%">
+    <div class="text">One World Connected</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span> 
+  </div>
+  
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+  }
+  </script>
+
+</div>
+<br>
+<Br>
+<!--menampilkan video youtube--> 
+
+<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/A86w56tZu1k?si=jPoIy00b4CxtroQa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h3 id="A">Informasi Umum</h3>
+
+<div id="D">
+  <h3>Lokasi</h3>
+  <br>
+<table>
+  <tr>
+    <th>No</th>
+    <th>Museum</th>
+    <th>Lokasi</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Museum di Washington</td>
+     <td>6th St. and Independence Ave SW
+        Washington, DC 20560</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Museum Udvar Hazy</td>
+     <td>14390 Air and Space Museum Parkway
+        Chantilly, VA 20151</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <br>
+    <br>
+    
+    <h3>Jam Operasional</h3>
+   
+  </tr>
+  <tr>
+    <td>Museum di Washington</td>
+    <td>Buka Setiap Hari</td>
+    <td>10:00 am - 05:30 pm</td>
+  </tr>
+  <tr>
+    <td>Museum Udvar Hazy</td>
+     <td>Buka Setiap Hari</td>
+     <td> 10.00 am - 05.30 pm</td>
+  </tr>
+</table> 
+</div>
+<br>
+<footer>
+  <div class="footer"> 
+    
+    <a href="https://www.facebook.com/airandspace/">
+    <i class="fab fa-facebook fa-xl"></i> </a>
+    <a href="https://www.youtube.com/@airandspace">
+    <i class="fab fa-youtube fa-xl"></i> </a>
+    <a href="https://twitter.com/AirSpacePod">
+    <i class="fab fa-x-twitter fa-xl"></i></a>
+    <a href="https://www.instagram.com/airandspacemuseum/"></a>
+    <i class="fab fa-square-instagram fa-xl"></i>
+<br>
+</div>
+
+</footer>
+<br>
+<p id="A">Yahya Ayyasy
+    <Br>11210251000096</Br>
+</p>
+</div>
+</body>
+</html>
